@@ -4,6 +4,11 @@
 // print "Active admin", otherwise print "Not an active admin".
 void main(){
 
+ Map<String, dynamic> user = {"name": "Mariyam","isAdmin": true, "isActive": true};
 
-  
+  if(user["isAdmin"] && user["isActive"] ){
+    print("Active admin");
+  }else{
+    print("NNot an active admin");
+  } 
 }
